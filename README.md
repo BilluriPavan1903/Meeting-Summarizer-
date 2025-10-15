@@ -59,23 +59,11 @@ source venv/bin/activate    # For macOS/Linux
 pip install -r requirements.txt
 
 
-# replace with your google apo key 
+# replace with your google api key 
 
 GEMINI_API_KEY=your_google_gemini_api_key
 
 python app.py
-
-
-audio-summarizer/
-│
-├── app.py                  # Flask application entry point
-├── db.py                   # Optional: for database integration
-├── static/                 # CSS and JS files
-├── templates/              # HTML templates (e.g., home.html)
-├── requirements.txt        # Project dependencies
-├── .env                    # Environment variables
-└── README.md               # Documentation
-
 
 
 🧠 Example Output
@@ -94,6 +82,34 @@ Contact :
 B Pavan SrinivasaRao
 billuripavan891@gmail.com
 contact : 7013799733
+
+
+
+## 📂 Project Structure  
+
+```bash
+audio-summarizer/
+│
+├── app.py                  # Flask application entry point
+├── db.py                   # Optional: for database integration
+│
+├── static/                 # Contains CSS, JS, and other static files
+│   ├── style.css
+│   └── script.js
+│
+├── templates/              # HTML templates for frontend
+│   └── home.html
+│
+├── requirements.txt        # Project dependencies
+├── .env                    # Environment variables (API keys, etc.)
+└── README.md               # Project documentation
+
+
+
+
+
+
+
 
 
 
