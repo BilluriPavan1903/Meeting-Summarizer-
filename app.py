@@ -9,7 +9,7 @@ import json
 import re
 
 # 🔑 Set your Gemini API key
-genai.configure(api_key="AIzaSyALLE0lYCzPECLri-vVY-LayUW9rMkX97A")
+genai.configure(api_key="Replace with your api key ")
 
 
 app = Flask(__name__)
