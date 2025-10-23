@@ -27,6 +27,13 @@ Built using **Python, Flask, Whisper, Google Gemini API**, and **FFmpeg**, the s
 
 ---
 
+The Sample Result:
+<img width="1860" height="866" alt="image" src="https://github.com/user-attachments/assets/dd558f0c-6004-4b1b-84b8-f443bb1a1be3" />
+
+the sample audio for testing :
+
+
+
 ## 🧩 Tech Stack  
 
 | Component | Technology Used |
