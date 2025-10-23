@@ -5,8 +5,14 @@ import google.generativeai as genai
 import json
 import re
 
+<<<<<<< HEAD
 # 🔑 Configure Gemini API key
 genai.configure(api_key="AIzaSyA7JSfancr3R2mJzTUnt9P6iUw5gcS8w1U")
+=======
+# 🔑 Set your Gemini API key
+genai.configure(api_key="Replace with your key")
+
+>>>>>>> 168480b9a95b93663470c690958bb83505ce2b30
 
 app = Flask(__name__)
 
@@ -93,4 +99,4 @@ def process_audio():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host -"0.0.0.0",debug=True)
