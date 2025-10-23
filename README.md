@@ -92,24 +92,7 @@ contact : 7013799733
 
 
 
-## 📂 Project Structure  
 
-```bash
-audio-summarizer/
-│
-├── app.py                  # Flask application entry point
-├── db.py                   # Optional: for database integration
-│
-├── static/                 # Contains CSS, JS, and other static files
-│   ├── style.css
-│   └── script.js
-│
-├── templates/              # HTML templates for frontend
-│   └── home.html
-│
-├── requirements.txt        # Project dependencies
-├── .env                    # Environment variables (API keys, etc.)
-└── README.md               # Project documentation
 
 
 
